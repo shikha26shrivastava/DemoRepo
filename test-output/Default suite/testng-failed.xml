@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testng_learning.AnnotationLearning">
+        <methods>
+          <include name="url"/>
+          <include name="title"/>
+          <include name="login1"/>
+          <include name="login"/>
+          <include name="h"/>
+          <include name="dbConnection"/>
+          <include name="title1"/>
+          <include name="f"/>
+          <include name="url1"/>
+          <include name="dbConnection1"/>
+        </methods>
+      </class> <!-- testng_learning.AnnotationLearning -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
