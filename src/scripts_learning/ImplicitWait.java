@@ -20,5 +20,6 @@ public class ImplicitWait
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
+		System.out.println("git demo");
 	}
 }
